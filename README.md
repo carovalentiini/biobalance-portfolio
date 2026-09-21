@@ -1,10 +1,10 @@
-# BioBalance Landing Page
+﻿# StudioValente Landing Page
 
-Este es un proyecto de portafolio que muestra una landing page moderna y responsive para **BioBalance**, un centro de bienestar y pilates.
+Este es un proyecto de portafolio que muestra una landing page moderna y responsive para **StudioValente**, un centro de bienestar y pilates.
 
 ## 🚀 Demo en vivo
 Puedes ver la página funcionando aquí:
-[https://carovalentiini.github.io/biobalance-portfolio/](https://carovalentiini.github.io/biobalance-portfolio/)
+[https://carovalentiini.github.io/StudioValente-portfolio/](https://carovalentiini.github.io/StudioValente-portfolio/)
 
 ## 🛠️ Tecnologías utilizadas
 - HTML5 Semántico

@@ -1,0 +1,3 @@
+# Priorizar index.html sobre index.php para evitar que actualizaciones de WordPress
+# o archivos autogenerados de PHP tomen precedencia sobre la landing page estática.
+DirectoryIndex index.html index.php index.htm

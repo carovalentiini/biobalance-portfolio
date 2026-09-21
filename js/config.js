@@ -1,7 +1,7 @@
-// Configuración de Planes y Precios BioBalance
+﻿// Configuración de Planes y Precios StudioValente
 // Para cambiar los precios, solo edita los valores en este archivo.
 
-window.BIOBALANCE_CONFIG = {
+window.StudioValente_CONFIG = {
     planes: [
         {
             nombre: "Plan Básico",

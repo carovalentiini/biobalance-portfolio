@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+﻿document.addEventListener('DOMContentLoaded', () => {
   // Navbar scroll
   const nav = document.querySelector('.navbar');
   window.addEventListener('scroll', () => {
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const telefono = document.getElementById('telefono').value;
     const mensaje = document.getElementById('mensaje').value;
 
-    const texto = `¡Hola BioBalance!%0A%0AMe gustaría recibir información.%0A%0A*Nombre:* ${nombre}%0A*Email:* ${email}%0A*Teléfono:* ${telefono}%0A*Interés:* ${mensaje}`;
+    const texto = `¡Hola StudioValente!%0A%0AMe gustaría recibir información.%0A%0A*Nombre:* ${nombre}%0A*Email:* ${email}%0A*Teléfono:* ${telefono}%0A*Interés:* ${mensaje}`;
     const url = `https://wa.me/56995112640?text=${texto}`;
     
     window.open(url, '_blank');
@@ -168,9 +168,9 @@ document.querySelector('.calendar-img')?.addEventListener('error', function() {
 // Renderizado dinámico de precios
 function renderPrices() {
     const grid = document.getElementById('pricing-grid');
-    if (!grid || !window.BIOBALANCE_CONFIG) return;
+    if (!grid || !window.StudioValente_CONFIG) return;
 
-    grid.innerHTML = window.BIOBALANCE_CONFIG.planes.map((plan, index) => `
+    grid.innerHTML = window.StudioValente_CONFIG.planes.map((plan, index) => `
         <div class="pricing-card ${plan.destacado ? 'featured' : ''} fade-up" style="transition-delay: ${index * 0.1}s">
             ${plan.tag ? `<div class="pricing-tag">${plan.tag}</div>` : ''}
             <h3>${plan.nombre}</h3>
